@@ -4,6 +4,8 @@ import { analyzeResume } from "@/actions/analyze";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
+import { ScrollArea } from "@/components/ui/scroll-area"
+
 
 export default function AnalyzePage() {
   const [field, setField] = useState("");
@@ -102,12 +104,12 @@ export default function AnalyzePage() {
 
         {/* Display result without a card */}
         {result && (
-          <div className="mt-6 bg-black border border-gray-700 shadow-lg rounded-lg p-4 max-h-80 overflow-y-auto">
-            <h2 className="text-white text-lg font-semibold mb-2">Analysis Result:</h2>
+          <ScrollArea className="mt-6 rounded-md border p-4 h-80 overflow-y-auto">
+            <h2 className="text-white text-lg font-semibold mb-2 text-center">Analysis Result:</h2>
             <pre className="whitespace-pre-wrap text-white text-sm font-mono p-3 bg-black-800 rounded-lg border border-gray-700">
               {result}
             </pre>
-          </div>
+          </ScrollArea>
         )}
       </div>
     </div>
