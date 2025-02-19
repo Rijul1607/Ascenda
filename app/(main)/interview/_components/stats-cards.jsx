@@ -13,7 +13,7 @@ export default function StatsCards({ assessments }) {
 
   const getLatestAssessment = () => {
     if (!assessments?.length) return null;
-    return assessments[0];
+    return assessments.at(-1);
   };
 
   const getTotalQuestions = () => {

@@ -65,7 +65,7 @@ export default function AnalyzePage() {
       </h1>
 
       {/* Centered form */}
-      <div className="max-w-3xl mx-auto mt-24 bg-black shadow-lg rounded-lg p-6">
+      <div className="max-w-3xl mx-auto mt-24 bg-blue shadow-lg rounded-lg p-6 border">
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label className="block text-sm font-medium text-white mb-2">
@@ -76,7 +76,7 @@ export default function AnalyzePage() {
               accept="application/pdf"
               onChange={handleFileChange}
               required
-              className="w-full border-gray-700 bg-black-800 text-white"
+              className="w-full border-gray-700 bg-blue text-white"
             />
           </div>
           <div>
@@ -88,7 +88,7 @@ export default function AnalyzePage() {
               value={field}
               onChange={(e) => setField(e.target.value)}
               required
-              className="w-full border-gray-700 bg-black text-white"
+              className="w-full border-gray-700  text-white"
             />
           </div>
           <Button type="submit" className="w-full flex justify-center items-center gap-2" disabled={loading}>
