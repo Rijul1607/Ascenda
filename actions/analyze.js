@@ -12,7 +12,7 @@ export async function analyzeResume(resume, field) {
   const prompt = `
     Analyze this resume for the field of "${field}" and suggest ATS optimizations and Give ATS SCORE.
     Provide structured suggestions to improve content, keyword usage, and formatting.
-    and give in the detailed way and also give the keywords,content and formatting needed
+    and give in the detailed way 
     Resume Content:
     ${resume}
   `;
