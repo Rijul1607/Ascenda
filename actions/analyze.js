@@ -7,7 +7,7 @@ export async function analyzeResume(resume, field) {
   }
 
   const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
   const prompt = `
     Analyze this resume for the field of "${field}" and suggest ATS optimizations and Give ATS SCORE.
