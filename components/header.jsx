@@ -8,6 +8,7 @@ import {
   ChevronDown,
   StarsIcon,
   FileCheck2,
+  NotebookText,
 } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
@@ -51,6 +52,20 @@ export default async function Header() {
                 <LayoutDashboard className="h-4 w-4" />
               </Button>
             </Link>
+            <Link href="/resource">
+              <Button
+                variant="outline"
+                className="hidden md:inline-flex items-center gap-2"
+              >
+                <NotebookText className="h-4 w-4" />
+                Resources
+              </Button>
+              <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
+                <NotebookText className="h-4 w-4" />
+              </Button>
+            </Link>
+
+            
 
             {/* Growth Tools Dropdown */}
             <DropdownMenu>
