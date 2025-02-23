@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Book, Download, FileText, Star, Layout } from "lucide-react";
+import { Book, Download, FileText, Star, Layout,Map } from "lucide-react";
 
 const ResourcesPage = () => {
   const resources = [
@@ -21,6 +21,11 @@ const ResourcesPage = () => {
     { id: "template1", title: "Professional Resume Template", description: "A clean and professional resume template", link: "jvs-resume-template.pdf", downloads: 1100, stars: 500 },
     { id: "template2", title: "Modern Resume Template", description: "A sleek and modern resume template", link: "nitin-bawanes-resume.pdf", downloads: 870, stars: 350 }
   ];
+  const roadmaps = [
+    { id: "roadmap1", title: "Full Stack Developer Roadmap", description: "Step-by-step guide to becoming a Full Stack Developer", link: "full-stack.pdf", downloads: 1500, stars: 600 },
+    { id: "roadmap2", title: "Data Science Roadmap", description: "A complete guide to Data Science career path", link: "ai-data-scientist.pdf", downloads: 1300, stars: 550 }
+  ];
+  
 
   const categories = ["All", "Programming", "Computer Networks"];
   const languages = ["All", "Python", "Java", "JavaScript", "C++"];
@@ -28,6 +33,7 @@ const ResourcesPage = () => {
   const [activeTab, setActiveTab] = useState("books");
   const [categoryFilter, setCategoryFilter] = useState("All");
   const [languageFilter, setLanguageFilter] = useState("All");
+  const [templateTab, setTemplateTab] = useState("resumes");
 
   const filteredResources = resources.filter(
     (resource) =>
@@ -60,7 +66,16 @@ const ResourcesPage = () => {
         )}
         <TabsContent value="books"><ResourceGrid resources={filteredResources} /></TabsContent>
         <TabsContent value="notes"><ResourceGrid resources={filteredResources} /></TabsContent>
-        <TabsContent value="templates"><ResourceGrid resources={templates} /></TabsContent>
+        <TabsContent value="templates">
+          <Tabs defaultValue="resumes" className="w-full" onValueChange={(value) => setTemplateTab(value)}>
+            <TabsList className="grid w-full grid-cols-2 mb-6">
+              <TabsTrigger value="resumes" className="text-lg"><FileText className="mr-2 h-5 w-5" /> Resume Templates</TabsTrigger>
+              <TabsTrigger value="roadmaps" className="text-lg"><Map className="mr-2 h-5 w-5" /> Roadmaps</TabsTrigger>
+            </TabsList>
+            <TabsContent value="resumes"><ResourceGrid resources={templates} /></TabsContent>
+            <TabsContent value="roadmaps"><ResourceGrid resources={roadmaps} /></TabsContent>
+          </Tabs>
+        </TabsContent>
       </Tabs>
     </div>
   );
