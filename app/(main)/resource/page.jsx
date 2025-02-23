@@ -9,12 +9,12 @@ import { Book, Download, FileText, Star, Layout } from "lucide-react";
 
 const ResourcesPage = () => {
   const resources = [
-    { id: "book1", title: "Python for Data Science", description: "Comprehensive guide to Python for data analysis", link: "#", downloads: 1200, stars: 450, category: "Programming", language: "Python" },
-    { id: "book2", title: "Java: The Complete Reference", description: "In-depth exploration of Java programming", link: "#", downloads: 980, stars: 320, category: "Programming", language: "Java" },
-    { id: "book3", title: "Computer Networks", description: "Comprehensive guide to computer networking principles", link: "#", downloads: 1500, stars: 780, category: "Computer Networks" },
-    { id: "note1", title: "JavaScript ES6 Cheatsheet", description: "Quick reference for modern JavaScript features", link: "#", downloads: 750, stars: 230, category: "Programming", language: "JavaScript" },
-    { id: "note2", title: "Data Structures in C++", description: "Notes on implementing common data structures in C++", link: "#", downloads: 620, stars: 180, category: "Programming", language: "C++" },
-    { id: "note3", title: "Network Protocols Overview", description: "Summary of key networking protocols", link: "#", downloads: 890, stars: 340, category: "Computer Networks" },
+    { id: "book1", title: "Python for Data Science", description: "Comprehensive guide to Python for data analysis", link: "Python4DataAnalysis.pdf", downloads: 1200, stars: 450, category: "Programming", language: "Python" },
+    { id: "book2", title: "Java: The Complete Reference", description: "In-depth exploration of Java programming", link: "Mark_Allen_Weiss_Data_Structures_and_Algorithm_Analysis_in_Java,_3rd_Edition__2011.pdf", downloads: 980, stars: 320, category: "Programming", language: "Java" },
+    { id: "book3", title: "Computer Networks", description: "Comprehensive guide to computer networking principles", link: "Computer.Networking A Top-Down Approach 6th Edition.pdf", downloads: 1500, stars: 780, category: "Computer Networks" },
+    { id: "note1", title: "JavaScript ES6 Cheatsheet", description: "Quick reference for modern JavaScript features", link: "Javascript Handwritten Notes.pdf", downloads: 750, stars: 230, category: "Programming", language: "JavaScript" },
+    { id: "note2", title: "Data Structures in C++", description: "Notes on implementing common data structures in C++", link: "DSA Handwritten Notes-2.pdf", downloads: 620, stars: 180, category: "Programming", language: "C++" },
+    { id: "note3", title: "Network Protocols Overview", description: "Summary of key networking protocols", link: "Computer_Networking_Notes.pdf", downloads: 890, stars: 340, category: "Computer Networks" },
   ];
 
   const templates = [
