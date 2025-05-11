@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ascenda – AI Growth Mentor 
 
-## Getting Started
+**Empowering Career Growth with AI**  
+[🌐 Live Site](https://ascenda-nine.vercel.app) | [📹 Demo Video](https://drive.google.com/file/d/1iAwQys1VcJFyGuG6xAMjqDNTJosIrT1H/view?usp=sharing)
 
-First, run the development server:
+Ascenda is an AI-powered virtual career assistant built with Next.js that helps individuals streamline their job search and career development through intelligent tools and personalized insights.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 Problem Statement
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🧾 75% of resumes are rejected by ATS due to formatting/keyword mismatches  
+- 📄 67% of job seekers struggle with writing resumes and cover letters  
+- 💬 80% feel unprepared for interviews due to lack of practice and feedback  
+- 📉 Lack of industry insights leads to uninformed career decisions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Our Solution: AI Growth Mentor
 
-To learn more about Next.js, take a look at the following resources:
+Ascenda leverages AI to solve the most pressing career development challenges:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **📝 Resume Analyzer** – Detects weaknesses, ensures ATS compliance  
+- **🎤 Interview Preparation** – Conducts mock interviews with real-time feedback  
+- **📑 Resume & Cover Letter Creator** – Generates tailored and optimized documents  
+- **📊 Industry Insights Generator** – Provides salary data, skills demand, and trends  
+- **📚 Resource Hub** – Aggregates resources for various core subjects and domains  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌟 Competitive Edge
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Personalized, AI-driven career coaching  
+- Continuous learning from user interactions  
+- Data-backed suggestions for higher success rate
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎯 Target Audience
+
+- Students and fresh graduates  
+- Mid-career professionals  
+- Job seekers looking to switch domains or upskill  
+
+---
+
+## 💼 Business Model
+
+**Revenue Streams:**
+- Subscription Plans: Basic, Pro, Mentor+ (Monthly/Yearly)
+- Affiliate Commission from certifications/courses
+- Licensing to colleges/institutes
+- B2B partnerships with hiring platforms via job-matching APIs
+
+**Distribution Channels:**
+- Web & Mobile App
+- College portal and LMS integrations
+- Career-focused social content (Instagram, YouTube, TikTok)
+- Partnerships with universities and coaching centers
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend**: Next.js, Tailwind CSS  
+- **Backend**: Node.js, Prisma ORM  
+- **Database**: PostgreSQL  
+- **Auth**: NextAuth.js  
+- **AI/ML**: OpenAI APIs  
+
+---
+
+## 📂 Project Structure
+
