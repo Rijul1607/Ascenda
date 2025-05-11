@@ -1,4 +1,5 @@
-# Ascenda – AI Growth Mentor 
+<img src="https://github.com/user-attachments/assets/0cd22ffd-3ff6-48ea-9e9c-bad1a324c9cf" alt="Ascenda Flowchart" width="300" height="100"/>
+
 
 **Empowering Career Growth with AI**  
 [🌐 Live Site](https://ascenda-nine.vercel.app) | [📹 Demo Video](https://drive.google.com/file/d/1iAwQys1VcJFyGuG6xAMjqDNTJosIrT1H/view?usp=sharing)
@@ -44,21 +45,7 @@ Ascenda leverages AI to solve the most pressing career development challenges:
 
 ---
 
-## 💼 Business Model
 
-**Revenue Streams:**
-- Subscription Plans: Basic, Pro, Mentor+ (Monthly/Yearly)
-- Affiliate Commission from certifications/courses
-- Licensing to colleges/institutes
-- B2B partnerships with hiring platforms via job-matching APIs
-
-**Distribution Channels:**
-- Web & Mobile App
-- College portal and LMS integrations
-- Career-focused social content (Instagram, YouTube, TikTok)
-- Partnerships with universities and coaching centers
-
----
 
 ## 🧱 Tech Stack
 
@@ -71,4 +58,22 @@ Ascenda leverages AI to solve the most pressing career development challenges:
 ---
 
 ## 📂 Project Structure
+```plaintext
+Ascenda/
+├── app/ # Next.js app directory for routing and layout
+│ ├── page.js # Home page logic
+│ └── ... # Other pages and layout files
+├── components/ # Reusable React components (Navbar, Footer, Cards)
+├── hooks/ # Custom React hooks for state and effects
+├── lib/ # Utility libraries and helper functions
+├── prisma/ # Database schema and Prisma configuration
+│ ├── schema.prisma # Main DB schema file
+│ └── seed.js # Optional: Seeder for development data
+├── public/ # Static files (images, icons, etc.)
+├── styles/ # Global styles and custom CSS
+├── .env.local # Environment variables (not committed)
+├── README.md # Project documentation
+├── package.json # Dependencies and scripts
+└── next.config.js # Next.js configuration
+```
 
