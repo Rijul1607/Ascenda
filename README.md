@@ -51,9 +51,9 @@ Ascenda leverages AI to solve the most pressing career development challenges:
 
 - **Frontend**: Next.js, Tailwind CSS  
 - **Backend**: Node.js, Prisma ORM  
-- **Database**: PostgreSQL  
-- **Auth**: NextAuth.js  
-- **AI/ML**: OpenAI APIs  
+- **Database**: PostgreSQL,NeonDB 
+- **Auth**: Clerk 
+- **AI/ML**: Gemini APIs  
 
 ---
 
@@ -76,4 +76,13 @@ Ascenda/
 ├── package.json # Dependencies and scripts
 └── next.config.js # Next.js configuration
 ```
+## 🧪 Getting Started Locally
+```bash
+git clone https://github.com/Rijul1607/Ascenda
+cd Ascenda
+npm install
+npm run dev
+```
+
+
 
