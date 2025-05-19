@@ -2,7 +2,7 @@
 
 
 **Empowering Career Growth with AI**  
-[🌐 Live Site](https://ascenda-nine.vercel.app) | [📹 Demo Video](https://drive.google.com/file/d/1iAwQys1VcJFyGuG6xAMjqDNTJosIrT1H/view?usp=sharing)
+[🌐 Live Site](https://ascenda-nine.vercel.app) | [📹 Demo Video](https://drive.google.com/file/d/19gkmJQyX3x7BtfrSgnfz0r5tI6xAuif1/view?usp=drive_link)
 
 Ascenda is an AI-powered virtual career assistant built with Next.js that helps individuals streamline their job search and career development through intelligent tools and personalized insights.
 
