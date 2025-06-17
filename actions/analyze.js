@@ -19,7 +19,7 @@ export async function analyzeResume(resume, field) {
 
   try {
     const result = await model.generateContent(prompt);
-    let responseText = await result.response.text();  // Directly get response text
+    let responseText = result.response.text();  // Directly get response text
 
     // Remove all stars (*) from the response
     responseText = responseText.replace(/\*/g, "");
